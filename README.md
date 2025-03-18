@@ -1,3 +1,5 @@
+## 👋 Hi!  
+Hello, I'm Krish Patel.
 
 ## 🌐 Socials:
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:Krish.Patel134@iiitb.ac.in) 
@@ -12,7 +14,6 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=kodercrish&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 <!---
 kodercrish/kodercrish is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
