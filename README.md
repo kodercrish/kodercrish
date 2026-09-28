@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Krish%20Patel&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Developer%20%E2%80%A2%20CS%20Student%20%40%20IIIT%20Bangalore&descSize=17&descAlignY=58" alt="Krish Patel" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=190&section=header&text=Krish%20Patel&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Backend%20%E2%80%A2%20Databases%20%E2%80%A2%20System%20Design%20%7C%20IIIT%20Bangalore&descSize=17&descAlignY=58" alt="Krish Patel" width="100%" />
 
 <a href="https://github.com/kodercrish">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2EA8E6&center=true&vCenter=true&width=620&lines=I+build+full-stack+apps+end+to+end;Spring+Boot+microservices+%E2%80%A2+React+%E2%80%A2+React+Native;Also+into+ML+and+computer+architecture" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2EA8E6&center=true&vCenter=true&width=620&lines=Backend-first+full-stack+developer;Spring+Boot+microservices+%E2%80%A2+API+gateways+%E2%80%A2+JWT;Designing+schemas+across+SQL+%26+NoSQL;React+%2F+React+Native+on+the+front" alt="Typing intro" />
 </a>
 
 ![Profile views](https://komarev.com/ghpvc/?username=kodercrish&style=flat-square&color=2EA8E6&label=profile+views)
@@ -15,18 +15,23 @@
 ### 👋 About me
 
 - 🎓 CS undergrad at **IIIT Bangalore**
-- 🛠️ I like building products end to end: **Spring Boot** backends, **React / React Native** frontends, and the database and deployment work that connects them
-- 🧩 Currently exploring **microservice architecture**, **secure auth (JWT/RBAC)** and **DevOps**
-- 🤖 Side interests: **machine learning** and **computer architecture** (processor and cache simulators)
+- ⚙️ **Backend-first.** I spend most of my time designing **services, APIs and data models** in **Java / Spring Boot**
+- 🏗️ I've built **microservice systems**: independent Spring Boot services behind an **API gateway**, with stateless **JWT auth** and **role-based access control**
+- 🗄️ I work across **MySQL, PostgreSQL and MongoDB**, from schema design to choosing the right store for the job
+- 🎨 I build the clients too, in **React, Next.js and React Native**, so my projects ship end to end
+- 🔬 I also like the layers underneath: I've written **processor and cache simulators** from scratch
 
 ---
 
 ### 🧰 Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,py,ts,js,c,cpp&theme=dark" alt="Languages" /><br/>
-  <img src="https://skillicons.dev/icons?i=spring,nodejs,fastapi,react,nextjs,tailwind,vite&theme=dark" alt="Frameworks" /><br/>
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,docker,aws,linux,git,postman,sklearn&theme=dark" alt="Databases and tools" />
+  <b>Backend &amp; languages</b><br/>
+  <img src="https://skillicons.dev/icons?i=java,spring,nodejs,fastapi,py,cpp,c&theme=dark" alt="Backend and languages" /><br/><br/>
+  <b>Databases &amp; infrastructure</b><br/>
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,docker,aws,linux,git,gradle,maven,postman&theme=dark" alt="Databases and infrastructure" /><br/><br/>
+  <b>Frontend</b><br/>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,vite&theme=dark" alt="Frontend" />
 </p>
 
 ---
@@ -37,52 +42,44 @@
 <tr>
 <td width="50%" valign="top">
 
-#### 🏥 [SEHRA](https://github.com/kodercrish/SEHRA)
-Role-based platform for managing health-research proposals and securing clinical data access requests.
+#### 🛒 [OnCampus Deals](https://github.com/kodercrish/OnCampus-Deals)
+A campus marketplace for buying, selling and chatting about second-hand goods. It's split into **five Spring Boot microservices** (auth, listings, search, chat, admin) behind a **Spring Cloud Gateway** that handles JWT checks and routing. The client is a React Native app.
 
-`Java 21` `Spring Boot` `React 19` `PostgreSQL` `JWT`
+`Spring Boot` `Spring Cloud Gateway` `Microservices` `MySQL` `React Native`
 
 </td>
 <td width="50%" valign="top">
 
-#### 🛒 [OnCampus Deals](https://github.com/kodercrish/OnCampus-Deals)
-A campus marketplace for buying, selling and chatting about second-hand goods. Five Spring Boot microservices sit behind an API gateway, with a React Native app as the client.
+#### 🏥 [SEHRA](https://github.com/kodercrish/SEHRA)
+Secure Exchange of Health Record Access: a role-based platform that manages the lifecycle of clinical data-access requests, with RSA-signed JWTs and a PostgreSQL backend.
 
-`Spring Cloud Gateway` `Microservices` `React Native` `MySQL`
+`Spring Boot` `PostgreSQL` `JWT (RS256)` `RBAC` `React`
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-#### 📈 [Riseon](https://github.com/kodercrish/Riseon) · [live ↗](https://riseon.vercel.app)
-A personal growth app with a plans calendar, a daily journal, and a resolution tracker that scores each day and shows a yearly heatmap.
-
-`Spring Boot` `React` `TypeScript` `MySQL`
-
-</td>
 <td width="50%" valign="top">
 
 #### 🧹 [Urban Crap](https://github.com/kodercrish/Urban-Crap)
-A home-services marketplace for Bangalore. A C++ Dijkstra engine, called through JNI, matches each order to service agents within range.
+A home-services marketplace for Bangalore. The Spring Boot backend calls a **C++ Dijkstra engine through JNI** to match each order to service agents within range.
 
-`React` `Spring Boot` `MongoDB` `C++ / JNI`
+`Spring Boot` `MongoDB` `C++ / JNI` `React`
+
+</td>
+<td width="50%" valign="top">
+
+#### 📈 [Riseon](https://github.com/kodercrish/Riseon) · [live ↗](https://riseon.vercel.app)
+A personal growth app with plans, a daily journal and resolution tracking. It runs on a Spring Security REST API with stateless JWT cookies and a Dockerised backend.
+
+`Spring Boot` `Spring Security` `MySQL` `Docker` `React`
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-#### 🏨 [Lobia Masala](https://github.com/kodercrish/Lobia-Masala)
-Hotel property value regression: feature engineering, outlier handling, and linear, tree and boosting models tuned with Bayesian search.
-
-`Python` `scikit-learn` `XGBoost` `LightGBM`
-
-</td>
-<td width="50%" valign="top">
+<td colspan="2" valign="top">
 
 #### 🖥️ [Computer Architecture](https://github.com/kodercrish/Computer-Architecture)
-Simulators written in Python: an IAS processor with an assembler, a MIPS processor, and a cache memory design.
+Low-level simulators: an IAS processor with its own assembler, a MIPS processor, and a cache memory design.
 
 `Python` `MIPS Assembly` `Cache design`
 
@@ -92,11 +89,14 @@ Simulators written in Python: an IAS processor with an assembler, a MIPS process
 
 ---
 
-### 📊 GitHub activity
+### 🧭 Engineering focus
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kodercrish&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</div>
+| Area | What I work on |
+|---|---|
+| **Backend** | REST APIs, Spring Boot services, gateway routing, validation and error handling |
+| **Databases** | Schema design and relationships in MySQL/PostgreSQL, document modelling in MongoDB |
+| **System design** | Microservice boundaries, stateless auth (JWT), RBAC, containerised deployments |
+| **Frontend** | React, Next.js and React Native clients for the systems I build |
 
 ---
 
